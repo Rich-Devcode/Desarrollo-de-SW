@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    height: 60px;
+    width: auto;
+}
+.navbar{
+    background-color: rgb(255, 154, 205);
+    color: aliceblue;
+}
+footer a{
+    color: rgba(255, 150, 215, 0.822);
+}
+
+footer a:hover{
+    color: rgb(242, 74, 152);
+}
+#contacto .bi{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.953);
+}
+/* Botón redondeado */
+.hero-btn {
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 40px;
+    background-color: #ff7bbf;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color .2s, transform .2s;
+}
+.hero-btn:hover {
+    background-color: #ff4aa4;
+    color: #fff;
+}
+.carousel .carousel-caption.hero-caption {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 10%;
+    right: auto;
+    transform: translateY(-50%);
+    width: 40%;
+    max-width: 460px;
+    padding: 0;
+    text-align: left;
+    background: none;
+}
+
+.carousel .hero-caption h5 {
+    font-weight: 600;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+}
+
+.carousel .hero-caption p {
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+}
+.Productos{
+    margin-top: 20px;
+
+}
+
+.Productos .tarjeta{
+    margin: 1%;
+    width: 22%;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: rgb(255, 204, 225);
+}
+
+.bouquet1 img{
+    width: 50%;
+    margin-bottom: 10px;
+    transition: 0.5s ease ;
+    
+}
+.bouquet1 img:hover{
+    transform: (180deg);
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
+}
+
+.bouquet1b a{
+    background-color: rgb(254, 92, 219);
+    padding: 3px 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+}
+.bouquet span{
+    font-weight: bold;
+}
+
+#catalogo{
+    padding: 40px 0;
+}
+
+#catalogo h2{
+    text-align: center;
+    color: #ff7bbf;
+}
+.grid_ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.tarjeta_ofertas{
+    background-color:#ffcde7;
+    border: 1px solid #ff4aa4;
+    border-radius: 8px; 
+    flex: 1 1 280px; /*grow shrink basis*/
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    /*Aqui efecto*/
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.tarjeta_ofertas:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.tarjeta_ofertas img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.info_ofertas{
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.info_ofertas h3{
+    font-size: 1.3rem;
+    color: #ff3a3a;
+}
+.info_ofertas p{
+    margin-bottom: 15px;
+    flex-grow: 1;
+    color: #5c0a33;
+}
+.tarjeta_ofertas .imgtarjeta {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.nivel{
+    background-color:#ff4aa4;
+    color:#fff;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-self: flex-start;
+    border-radius: 999px;
+    margin-bottom: 10px;
+}
